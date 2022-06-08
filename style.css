@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.earth{
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Large_World_Topo_Map_2.png/1200px-Large_World_Topo_Map_2.png) 0 0 repeat;
+    background-size: 630px;
+    border-radius: 50%;
+    position: relative;
+    animation: rotat 4s linear infinite;
+    box-shadow: 0px 0px 60px 50px #54545442;
+}
+@keyframes rotat{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 630px 0;
+    }
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    color: #ffffff00;
+    text-shadow: 5px 0px 5px #000000;
+}
+span{
+    animation: clr 3s linear infinite;
+    background-position: center;
+}
+@keyframes clr{
+    0%{color: #c1c1c1;}
+    20%{color: #ababab;}
+    40%{color: #787878;}
+    60%{color: #565656;}
+    80%{color: #404040;}
+    100%{color: #1e1e1e;}
+}
