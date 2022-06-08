@@ -11,7 +11,7 @@ body{
     background-size: 630px;
     border-radius: 50%;
     position: relative;
-    animation: rotat 4s linear infinite;
+    animation: rotat 7s linear infinite;
     box-shadow: 0px 0px 60px 50px #54545442;
 }
 @keyframes rotat{
